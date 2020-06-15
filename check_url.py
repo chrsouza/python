@@ -8,7 +8,7 @@ def url_statuscode(url):
     r = requests.head(url)
     return r.status_code
 
-url = "https://www.uol.com.br" 
+url = "https://www.google.com.br" 
 #print(url_ok("https://www.uol.com.br"))
 
 print("URL: ", url)
